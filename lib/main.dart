@@ -1,3 +1,5 @@
+import 'package:age_calculator/login.dart';
+import 'package:age_calculator/register.dart';
 import 'package:flutter/material.dart';
 
 import 'home.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(),
+      home: const Register(),
     );
   }
 }
